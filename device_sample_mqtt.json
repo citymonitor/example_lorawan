@@ -1,0 +1,22 @@
+{
+  "device_name": "Stefans Pegelsensor",
+  "device_type": "level",
+  "payload": {
+    "measurements": [
+      {
+        "key": "level",
+        "type": "level",
+        "unit": "cm",
+        "data_field": "level",
+        "thresholds": [
+          200,
+          300
+        ],
+        "threshold_colors": [
+          "#fd7e14",
+          "#dc3545"
+        ]
+      }
+    ]
+  }
+}
